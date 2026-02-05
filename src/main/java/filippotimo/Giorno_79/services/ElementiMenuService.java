@@ -9,13 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ElementoMenuService {
+public class ElementiMenuService {
 
     private final ElementiMenuRepository elementiMenuRepository;
 
 
     @Autowired
-    public ElementoMenuService(ElementiMenuRepository elementiMenuRepository) {
+    public ElementiMenuService(ElementiMenuRepository elementiMenuRepository) {
         this.elementiMenuRepository = elementiMenuRepository;
     }
 

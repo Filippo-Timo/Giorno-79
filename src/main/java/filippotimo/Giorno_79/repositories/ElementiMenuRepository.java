@@ -11,15 +11,11 @@ public interface ElementiMenuRepository extends JpaRepository<ElementoMenu, Long
 
     ElementoMenu findById(long id);
 
-    List<ElementoMenu> findByTipoElemento(String tipoElemento);
-
     List<ElementoMenu> findByName(String name);
 
     List<ElementoMenu> findByCalories(long calories);
 
     List<ElementoMenu> findByPrice(double price);
-
-    List<ElementoMenu> findByTipoElementoAndName(String tipoElemento, String name);
 
     boolean existsByName(String name);
 

@@ -28,7 +28,7 @@ public class ConfigClass {
 
     @Bean
     public Topping getHam() {
-        return new Topping("ham", 80, 0.99);
+        return new Topping("prosciutto", 80, 0.99);
     }
 
     @Bean
